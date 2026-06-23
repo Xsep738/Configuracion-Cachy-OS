@@ -268,7 +268,7 @@ cp ~/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/13.1.1.jre8-preview/mssql
   --datasourceclassname=com.microsoft.sqlserver.jdbc.SQLServerDataSource \
   --restype=javax.sql.DataSource \
   --property User=sa:Password='Root123!':DatabaseName=egobgdu:ServerName=localhost:PortNumber=1433 \
-  pool_egobgdu`
+  pool_egobgdu
 
 ```
 *pool_serverBox → base SB_SACH_20_Intermedia*
@@ -278,7 +278,7 @@ cp ~/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/13.1.1.jre8-preview/mssql
   --datasourceclassname=com.microsoft.sqlserver.jdbc.SQLServerDataSource \
   --restype=javax.sql.DataSource \
   --property User=sa:Password='Root123!':DatabaseName=SB_SACH_20_Intermedia:ServerName=localhost:PortNumber=1433 \
-  pool_serverBox`
+  pool_serverBox
 ```
 
 ### *Configurar SSL* ~Sin esto no puede hacer ping~
