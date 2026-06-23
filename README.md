@@ -34,7 +34,10 @@ sudo pacman -S jdk8-openjdk
 sudo pacman -Syu subversion
 ```
 
-### NetBeans 8.2 (requiere tener el .sh descargado en ~/Descargas o donde sea)
+### NetBeans 8.2
+
+[NetBeans](https://drive.google.com/file/d/1TXWv4wZEboH92jGmIUzdRO1HiflAD1oh/view?usp=drive_link)
+
 
 ```
 chmod +x netbeans-8.2-linux.sh
@@ -58,6 +61,22 @@ flatpak install https://dn.navicat.com/flatpak/flatpakref/navicat17/com.navicat.
 flatpak run com.navicat.premium.es
 ```
 
+### Reactivar Navicat
+Si pasa el tiempo de prueba de Navicat ejecutar el siguiente comando para reiniciar el tiempo de prueba
+
+[Navi.sh](https://drive.google.com/file/d/194XAhLmKGK2-eZZTq4uJZg5KzLvEaW8S/view?usp=drive_link)
+
+
+`Primera vez ejecutar el siguiente comando`
+```
+chmod +x navi.sh
+```
+
+Reiniciar periodo de prueba
+```
+./navi.sh
+```
+
 ### Visual Studio Code - Opcional ~Se puede usar nano para configurar el archivo de docker~
 
 ```
@@ -75,6 +94,8 @@ getent group docker
 
 
 ## Comandos para Docker
+
+[Docker-compose.yml](https://drive.google.com/file/d/1QMz7jCdBTzAHc3R5iXEGlmWfCIldA6QN/view?usp=drive_link)
 
 ```
 cd ~/Documentos/Docker/
@@ -100,6 +121,8 @@ sudo docker logs sqlserver2017
 sudo docker ps
 ```
 ## Restaurar .BAK
+
+[Respaldo Base de datos](https://drive.google.com/file/d/1MwuXZyZQin60WAzjLdUOcbSG7XV_CR0s/view?usp=drive_link)
 
 ### Copiar el .BAK al contenedor
 
