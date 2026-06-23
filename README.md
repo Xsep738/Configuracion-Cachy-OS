@@ -93,6 +93,19 @@ getent group docker
 ```
 
 
+## Configuracion de Netbeans
+
+En la ruta de `/home/miguel/glassfish-4.1.1/glassfish/domains/domain1/lib/` colocar los conectores de SQL
+
+[SQL](https://drive.google.com/file/d/1DZrLiURWvrv_B1N0yD5QlXysvNaOeu5F/view?usp=drive_link)
+
+[MySQL](https://drive.google.com/file/d/1VOd8Qh8eEpPG7XeHKNEgJ2K-aayjU3wA/view?usp=drive_link)
+
+### Maven
+
+En la ruta `/home/miguel/netbeans-8.2/java/maven/conf/` colocar el siguiente archivo para sobrescribir el ya existente
+
+[Settings.xml](https://drive.google.com/file/d/17XxLOFj6wP8rnousVCKSkNkeQ42y-ouQ/view?usp=drive_link)
 ## Comandos para Docker
 
 [Docker-compose.yml](https://drive.google.com/file/d/1QMz7jCdBTzAHc3R5iXEGlmWfCIldA6QN/view?usp=drive_link)
