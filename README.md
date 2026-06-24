@@ -78,7 +78,7 @@ Reiniciar periodo de prueba
 ```
 
 ### Configuracion de Navicat para SQL 2014/ SQL 2022
-![Navicat](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+![Navicat](https://github.com/Xsep738/Configuracion-Cachy-OS/blob/main/assets/Captura%20de%20pantalla_20260624_100912.png)
 
 
 ### Visual Studio Code - Opcional ~Se puede usar nano para configurar el archivo de docker~
