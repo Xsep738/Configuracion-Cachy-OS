@@ -361,3 +361,64 @@ sudo pacman -S openfortivpn
 sudo openfortivpn 187.189.117.14:443 --username=g4_1 \
   --trusted-cert 2c0ad75d10c90e24d778cdf2a2d48260d6a250584eeb3c2efdce2cf21dff63b2
   ```
+
+## SSL Imtalenty
+
+### Descargar openVPN
+
+```
+sudo pacman -S openvpn
+```
+
+Crear la carpeta donde ira el archivo .ovpn
+
+```
+sudo mkdir -p /etc/openvpn/client
+```
+
+Copiar el archivo .ovpn a la ruta creada 
+
+```
+sudo cp ~/Descargas/vpn70361_11.ovpn  /etc/openvpn/client/
+```
+
+### Inicializar el vpn de forma manual
+
+```
+sudo openvpn --config /etc/openvpn/client/vpn70361_11.ovpn --disable-dco
+```
+
+### Conexion SSH
+
+Ingresar en la terminal 
+
+```
+ssh root@74.208.131.238
+```
+
+La primera vez saldra este mensaje , ingresar yes para continuar 
+
+```
+The authenticity of host '74.208.131.238 (74.208.131.238)' can't be established.
+ED25519 key fingerprint is: SHA256:EfLltUu1OeSlW1Sf//qIwy2ag/b4zbXprS2T59uPPJk
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+
+Nos pedira la contraseña para continuar ingresar la contraseña del documento de Samsung notes
+
+Una vez dentro ingresamos a la carpeta *opt*
+
+```
+cd /opt
+cd SSL
+ls
+```
+
+Una vez dentro de la carpeta del SSL iniciamos el archivo *.sh* para levantar nuevamente el SSL
+
+```
+./ssl_produccion_imtalenty.sh
+```
+
+Y listo , con eso ya queda el SSL levantado nuevamente desde Cachy OS.
