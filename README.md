@@ -96,6 +96,34 @@ sudo usermod -aG docker nombreUsuario
 getent group docker
 ```
 
+### Extension Visual Studio
+Para restaurar de forma facil y rapida los archivos .BAK o crear los archivos .BAK de forma facil
+
+Buscar en el apartado de Extension de Visual Sutdio Code lo siguiente:
+```
+SQL SERVER (mssql)
+```
+Una vez dentro solo se tiene que configurar la conexion con los datos del Docker
+
+-Profile Nombre (Cualquier nombre)
+
+-Connection Group (Default)
+
+-Input type (Parameters)
+
+-Server name (localhost)
+
+-Trust Server certificate (TRUE)
+
+-User name (nombre de usuario de docker)
+
+-Password (Contraseña del docker)
+
+-Save password (Preferible que este como TRUE)
+
+-Database name (no seleccionada ningunda)
+
+-Encrypt (optional)
 
 ## Configuracion de Netbeans
 
